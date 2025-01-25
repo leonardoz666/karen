@@ -603,7 +603,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                         </div>
                         <div class="text-container" style="position: absolute; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; z-index: -1;">
-                            <img src="https://i.ibb.co/Fmf3xSC/card3.jpg" alt="" style="width: 100%; height: 100%; object-fit: contain;">
+                            <img src="https://i.ibb.co/Qfjfqz1/card3.jpg" alt="" style="width: 100%; height: 100%; object-fit: contain;">
                         </div>
                     </div>
                 </div>
