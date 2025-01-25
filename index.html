@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Karen</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <style>
+        body {
+            cursor: url('ui/pink.cur'), auto;
+        }
+        
+        /* Aplica a todos os elementos clicáveis */
+        button, input, a, [onclick], .clickable {
+            cursor: url('ui/pink2.cur'), pointer !important;
+        }
+        
+        /* Elementos do panda */
+        .panda-face, .hand-l, .hand-r {
+            cursor: url('ui/pink2.cur'), grab !important;
+        }
+        
+        .card {
+            cursor: url('ui/pink2.cur'), pointer !important;
+        }
+        
+        /* Adicionar regra para imagens clicáveis */
+        img[src*=".png"], img[src*=".jpg"] {
+            cursor: url('ui/pink2.cur'), pointer !important;
+        }
+        
+        .memory-card {
+            cursor: url('ui/pink2.cur'), pointer !important;
+        }
+        
+        /* Forçar cursor em todos os estados do input */
+        input[type="text"], 
+        input[type="password"] {
+            cursor: url('ui/pink2.cur'), text !important;
+            color: #000000 !important;
+        }
+        
+        input[type="text"]:active,
+        input[type="password"]:active,
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            cursor: url('ui/pink2.cur'), text !important;
+        }
+
+        /* Labels dos inputs */
+        form label {
+            cursor: url('ui/pink2.cur'), text !important;
+            color: #000000 !important;
+        }
+
+        /* Inputs em todos os estados */
+        input[type="text"], 
+        input[type="password"],
+        input[type="text"]:hover,
+        input[type="password"]:hover,
+        input[type="text"]:focus,
+        input[type="password"]:focus,
+        input[type="text"]:active,
+        input[type="password"]:active {
+            cursor: url('ui/pink2.cur'), text !important;
+        }
+
+        /* Estado de seleção de texto */
+        input[type="text"]::selection,
+        input[type="password"]::selection {
+            cursor: url('ui/pink2.cur'), text !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Container de Login -->
+    <div class="container">
+      <form>
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" placeholder="Digite seu usuário..." />
+        <label for="password">Senha:</label>
+        <input type="password" id="password" placeholder="Digite sua senha..." />
+        <button>Entrar</button>
+      </form>
+      
+      <!-- Elementos do Panda -->
+      <div class="ear-l"></div>
+      <div class="ear-r"></div>
+      <div class="panda-face">
+        <div class="blush-l"></div>
+        <div class="blush-r"></div>
+        <div class="eye-l">
+          <div class="eyeball-l"></div>
+        </div>
+        <div class="eye-r">
+          <div class="eyeball-r"></div>
+        </div>
+        <div class="nose"></div>
+        <div class="mouth"></div>
+      </div>
+      <div class="hand-l"></div>
+      <div class="hand-r"></div>
+      <div class="paw-l"></div>
+      <div class="paw-r"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
